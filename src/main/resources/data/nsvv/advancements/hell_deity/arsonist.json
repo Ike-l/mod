@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_candle"
+    },
+    "title": "Arsonist",
+    "description": "Craft 500 flint & steels",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "nsvv:hell_deity/hell_root",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "nsvv:hell_deity/hell_root": true
+                },
+                "stats": [
+                  {
+                    "type": "minecraft:crafted",
+                    "stat": "minecraft:flint_and_steel",
+                    "value": {
+                      "min": 500
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

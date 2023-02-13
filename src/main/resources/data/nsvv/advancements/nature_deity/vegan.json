@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:green_candle"
+    },
+    "title": "Going Vegan",
+    "description": "Pickup 10000 wheat seed!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "nsvv:nature_deity/nature_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "nsvv:nature_deity/nature_root": true
+            },
+            "stats": [
+              {
+                "type": "minecraft:picked_up",
+                "stat": "minecraft:wheat_seeds",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

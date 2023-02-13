@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": "I Choose You!",
+    "description": "Choose the Omnipotent Dragon Deity",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "nsvv:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "nsvv:nature_deity/nature_root": false,
+              "nsvv:undead_deity/undead_root": false,
+              "nsvv:hell_deity/hell_root": false
+            }
+        }
+        },
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ]
+        }
+      }
+    }
+  }
+}

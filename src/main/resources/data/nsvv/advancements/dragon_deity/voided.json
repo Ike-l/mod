@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_candle"
+    },
+    "title": "Leap of faith",
+    "description": "Jump in the void!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "nsvv:dragon_deity/dragon_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "advancements": {
+              "nsvv:dragon_deity/dragon_root": true
+            }
+          }
+        },
+        "location": {
+          "position": {
+            "y": {
+              "max": -64.0
+            }
+          },
+          "dimension": "minecraft:the_end"
+        }
+      }
+    }
+  }
+}

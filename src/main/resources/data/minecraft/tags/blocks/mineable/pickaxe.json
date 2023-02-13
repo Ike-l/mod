@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nsvv:star_block",
+    "nsvv:polished_star_block",
+    "nsvv:hell_temple",
+    "nsvv:dragon_temple",
+    "nsvv:nature_temple",
+    "nsvv:undead_temple"
+  ]
+}

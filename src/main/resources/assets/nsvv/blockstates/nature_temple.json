@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "nsvv:block/nature_temple" },
+    "facing=east": { "model": "nsvv:block/nature_temple", "y": 90 },
+    "facing=south": { "model": "nsvv:block/nature_temple", "y": 180 },
+    "facing=west": { "model": "nsvv:block/nature_temple", "y": 270 }
+  }
+}

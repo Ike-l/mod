@@ -1,0 +1,21 @@
+{
+  "item.nsvv.bottom_left_star_fragment": "Star Fragment 1",
+  "item.nsvv.bottom_right_star_fragment": "Star Fragment 2",
+  "item.nsvv.top_left_star_fragment": "Star Fragment 3",
+  "item.nsvv.top_right_star_fragment": "Star Fragment 4",
+  "item.nsvv.spawner_shard": "Spawner Shard",
+  "item.nsvv.dragon_scales": "Dragon Scales",
+  "item.nsvv.dragon_scale_helmet": "Dragon Scale Helmet",
+  "item.nsvv.dragon_scale_chestplate": "Dragon Scale Chestplate",
+  "item.nsvv.dragon_scale_leggings": "Dragon Scale Leggings",
+  "item.nsvv.dragon_scale_boots": "Dragon Scale Boots",
+
+  "block.nsvv.star_block": "Star Block",
+  "block.nsvv.polished_star_block": "Polished Star Block",
+  "block.nsvv.hell_temple": "Temple of the Hell Deity",
+  "block.nsvv.dragon_temple": "Temple of the Dragon Deity",
+  "block.nsvv.nature_temple": "Temple of the Nature Deity",
+  "block.nsvv.undead_temple": "Temple of the Undead Deity",
+
+  "itemGroup.nsvv": "Not So Vanilla Vanilla"
+}

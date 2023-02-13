@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "nsvv:block/hell_temple" },
+    "facing=east": { "model": "nsvv:block/hell_temple", "y": 90 },
+    "facing=south": { "model": "nsvv:block/hell_temple", "y": 180 },
+    "facing=west": { "model": "nsvv:block/hell_temple", "y": 270 }
+  }
+}

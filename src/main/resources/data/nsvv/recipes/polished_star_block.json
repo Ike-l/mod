@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "nsvv:star_block"
+  },
+  "result": "nsvv:polished_star_block",
+  "count": 1
+}
